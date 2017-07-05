@@ -1,5 +1,3 @@
-## Docs README
-
 ## Runner
 #### Background
 This game was inspired by bit trip runner. It's an infinite running game with obstacles along the way

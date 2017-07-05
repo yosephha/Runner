@@ -1,0 +1,6 @@
+#canvas{
+  border: 5px solid blue;
+  display: block;
+  margin: 0 auto;
+  background-image: url(assets/1.jpg);
+}

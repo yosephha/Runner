@@ -3,4 +3,14 @@
   display: block;
   margin: 0 auto;
   background-image: url(assets/1.jpg);
+  /*position: relative;*/
+}
+
+p#score {
+  display: inline-block;
+  /*background: red;*/
+  font-size: 29px;
+  /*position: absolute;
+  margin: -445px 11px;
+  z-index: 1;*/
 }

@@ -1,16 +1,16 @@
-#canvas{
+/*#canvas{
   border: 5px solid blue;
   display: block;
   margin: 0 auto;
-  /*background-image: url(assets/1.jpg);*/
+  background-image: url(assets/city_3.png);
   /*position: relative;*/
 }
 
-p#score {
-  display: inline-block;
+/*p#score {*/
+  /*display: inline-block;*/
   /*background: red;*/
-  font-size: 29px;
+  /*font-size: 29px;*/
   /*position: absolute;
   margin: -445px 11px;
   z-index: 1;*/
-}
+/*}*/

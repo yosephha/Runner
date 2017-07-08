@@ -2,6 +2,8 @@
   border: 5px solid blue;
   display: block;
   margin: 0 auto;
-  /*background-image: url(assets/1.jpg);*/
-  /*position: relative;*/
+  background-image: url(assets/bk4.gif);
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
 }

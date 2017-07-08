@@ -7,3 +7,20 @@
   background-repeat:   no-repeat;
   background-position: center center;
 }
+
+img.logo {
+    width: 542px;
+    display: block;
+    margin: auto;
+}
+
+a.github-link {
+    display: block;
+}
+a.linkedin-link {
+    display: block;
+}
+
+.main-body{
+  display: flex;
+}

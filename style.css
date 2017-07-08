@@ -1,11 +1,20 @@
 #canvas{
-  border: 5px solid blue;
+  border: 1px solid grey;
   display: block;
   margin: 0 auto;
   background-image: url(assets/bk4.gif);
   background-size:     cover;
   background-repeat:   no-repeat;
   background-position: center center;
+  /*position: relative;*/
+}
+
+body{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpxs015PrfdaUwW7S112uBmGge2bJinksq46wp7EWjOC5cTxV6);
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  /*background-color: red;*/
 }
 
 img.logo {
@@ -14,13 +23,31 @@ img.logo {
     margin: auto;
 }
 
-a.github-link {
+a.github-link, a.linkedin-link {
     display: block;
+    margin-bottom: 29px;
+    border: 1px solid blue;
+    border-radius: 100%;
+    padding: 15px;
+    text-align: center;
 }
-a.linkedin-link {
-    display: block;
+
+a:hover{
+  background: #423171;
+  color: #ffedcc;
 }
 
 .main-body{
   display: flex;
+  position: relative;
+  width: 909px;
+  margin: auto;
+}
+
+.personal-links {
+    position: absolute;
+    margin: 0px 950px;
+    font-size: 60px;
+    box-sizing: border-box;
+    /* padding: 0 1px; */
 }

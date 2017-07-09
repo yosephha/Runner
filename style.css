@@ -6,15 +6,14 @@
   background-size:     cover;
   background-repeat:   no-repeat;
   background-position: center center;
-  /*position: relative;*/
+  z-index: 999;
 }
 
 body{
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpxs015PrfdaUwW7S112uBmGge2bJinksq46wp7EWjOC5cTxV6);
+  background-image: url(https://ae01.alicdn.com/kf/HTB1H6MzQpXXXXcIXXXXq6xXFXXXf/HUAYI-wheat-color-Photography-Backdrop-Scenery-Custom-Photo-Portrait-Studios-font-b-Background-b-font-font.jpg);
   background-size:     cover;
   background-repeat:   no-repeat;
-  background-position: center center;
-  /*background-color: red;*/
+  background-position: center;
 }
 
 img.logo {
@@ -26,8 +25,8 @@ img.logo {
 a.github-link, a.linkedin-link {
     display: block;
     margin-bottom: 29px;
-    border: 1px solid blue;
-    border-radius: 100%;
+    /*border: 1px solid blue;*/
+    /*border-radius: 100%;*/
     padding: 15px;
     text-align: center;
 }

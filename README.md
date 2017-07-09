@@ -6,7 +6,7 @@
 Robi Runner is a type of platform game. The Game allows players to jump on different levels of platform to stay alive. The platform themselves start moving in the opposite direction once a Player reaches a certain score.
 
 #### Controls
-movement of a player can be controlled using the direction keys on the keyboard. The Game has optional control 'A' for left, 'W' and 'spacebar' for jump and 'D' for right.
+movement of a player can be controlled using the direction keys on the keyboard. The Game has optional control 'A' for left, 'D' for right and 'W' and 'spacebar' for jump.
 
 #### Playing the Game
 The landing page waits for the player input to start the game. It also displays playing keys with an associated proTip.
@@ -15,7 +15,7 @@ The landing page waits for the player input to start the game. It also displays 
 
 Once player is ready the can press the enter key to start.
 
-![landing_page](assets/images/Screen Shot 2017-07-09 at 12.45.58 PM.png)
+![landing_page](assets/images/ScreenShot.png)
 
 The level of difficulty of the game increases as time goes by. The way I implemented this is by having the platforms move in the opposite direction and increasing their speed based on score and how long a player has played.
 

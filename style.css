@@ -2,7 +2,7 @@
   border: 1px solid grey;
   display: block;
   margin: 0 auto;
-  background-image: url(assets/bk4.gif);
+  background-image: url(assets/images/bk4.gif);
   background-size:     cover;
   background-repeat:   no-repeat;
   background-position: center center;
@@ -11,8 +11,8 @@
 
 body{
   background-image: url(https://ae01.alicdn.com/kf/HTB1H6MzQpXXXXcIXXXXq6xXFXXXf/HUAYI-wheat-color-Photography-Backdrop-Scenery-Custom-Photo-Portrait-Studios-font-b-Background-b-font-font.jpg);
-  background-size:     cover;
-  background-repeat:   no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
 }
 

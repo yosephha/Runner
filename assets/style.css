@@ -46,5 +46,16 @@ a:hover{
     margin: 0px 950px;
     font-size: 60px;
     box-sizing: border-box;
-    /* padding: 0 1px; */
+}
+
+.developer p {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 18px;
+}
+
+.developer p span {
+    font-weight: 800;
+    font-size: 36px;
+    font-family: fantasy;
 }

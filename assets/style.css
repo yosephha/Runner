@@ -48,13 +48,13 @@ a:hover{
     box-sizing: border-box;
 }
 
-.developer p {
+.developer > p {
     text-align: center;
     font-family: fantasy;
     font-size: 18px;
 }
 
-.developer p span {
+.developer > p > span {
     font-weight: 800;
     font-size: 36px;
     font-family: fantasy;

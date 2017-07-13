@@ -17,16 +17,16 @@ body{
 }
 
 img.logo {
-    width: 542px;
-    display: block;
-    margin: auto;
+  width: 542px;
+  display: block;
+  margin: auto;
 }
 
 a.github-link, a.linkedin-link {
-    display: block;
-    margin-bottom: 29px;
-    padding: 15px;
-    text-align: center;
+  display: block;
+  margin-bottom: 29px;
+  padding: 15px;
+  text-align: center;
 }
 
 a:hover{
@@ -35,27 +35,45 @@ a:hover{
 }
 
 .main-body{
-  display: flex;
+  display: flex; 
   position: relative;
   width: 909px;
   margin: auto;
 }
 
 .personal-links {
-    position: absolute;
-    margin: 0px 950px;
-    font-size: 60px;
-    box-sizing: border-box;
+  position: absolute;
+  margin: 0px 950px;
+  font-size: 60px;
+  box-sizing: border-box;
 }
 
 .developer > p {
-    text-align: center;
-    font-family: fantasy;
-    font-size: 18px;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 18px;
 }
 
 .developer > p > span {
-    font-weight: 800;
-    font-size: 36px;
-    font-family: fantasy;
+  font-weight: 800;
+  font-size: 36px;
+  font-family: fantasy;
 }
+
+#sound-btn {
+  background: red;
+
+}
+
+#pause-btn {
+  background: blue;
+}
+
+.developer{
+    text-align: center;
+}
+
+/* .container{
+  width: 1000;
+  margin: auto;
+} */

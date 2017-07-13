@@ -13,23 +13,28 @@
     <div class="header">
       <img src="assets/images/logo.png" alt="Robi Runner" class="logo">
     </div>
-
-    <div class="main-body">
-      <canvas id="canvas" width="900" height="450"></canvas>
-      <audio id="game-audio" src="" onended="gameAudioEnd"></audio>
-
-      <div class="personal-links">
-        <a target="_blank" href="https://github.com/yosephha" class="github-link">
-          <i class="devicon-github-plain"></i>
-        </a>
-        <a target="_blank" href="https://www.linkedin.com/in/yoseph-habtewold-b7625881" class="linkedin-link">
-          <i class="fa fa-linkedin" aria-hidden="true"></i>
-        </a>
+    <div class="container">
+      <div class="developer">
+        <input type="submit" value="pause" name="mute" id="sound-btn">
+        <input type="submit" value="mute" name="pause" id="pause-btn">
       </div>
-    </div>
 
-    <div class="developer">
-      <p>developed by <span>Yoseph Habtewold</span></p>
+      <div class="main-body">
+        <canvas id="canvas" width="900" height="450"></canvas>
+
+        <div class="personal-links">
+          <a target="_blank" href="https://github.com/yosephha" class="github-link">
+            <i class="devicon-github-plain"></i>
+          </a>
+          <a target="_blank" href="https://www.linkedin.com/in/yoseph-habtewold-b7625881" class="linkedin-link">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="developer">
+        <p>developed by <span>Yoseph Habtewold</span></p>
+      </div>
     </div>
 
   <script type="application/javascript" src="lib/bundle.js"></script>

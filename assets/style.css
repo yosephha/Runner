@@ -61,9 +61,22 @@ a:hover{
 }
 
 #sound-btn {
-  background: red;
-
+    background: #a7987d;
+    padding: 6px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
 }
+
+#sound-btn:hover {
+    background: #a5979d;
+}
+
+user agent stylesheet
+
+
+user agent stylesheet
+
 
 #pause-btn {
   background: blue;
